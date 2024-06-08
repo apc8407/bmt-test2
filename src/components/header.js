@@ -8,7 +8,7 @@ function AppHeader() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home" style={{display: 'flex', alignItems: 'center'}}>
-          <img src={logo} alt="Logo" style={{height: '50px', objectFit: 'contain'}} />
+          <img src={logo} alt="Logo" style={{height: '80px', objectFit: 'contain'}} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -16,6 +16,7 @@ function AppHeader() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#teams">Team</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>

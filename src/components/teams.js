@@ -7,10 +7,8 @@ const teamsData = [
   {
     id: 1,
     image: require('../assets/images/profile.jpg'),
-    fbLink: 'https://www.facebook.com',
-    twitterLink: 'https://www.twitter.com',
-    linkedinLink: 'https://www.linkedin.com',
-    name: 'Binu Mathew Thampi',
+    linkedinLink: 'https://www.linkedin.com/in/bmathew1/',
+    name: 'Binu Mathew',
     designation: 'CEO',
     description: 'Talented and seasoned, result driven engineer with 20+ years pricing / estimating experience in myriad fields of construction ranging from schematic estimation to contract award for aviation, commercial, education, government, hospitality, industrial, infrastructure, retail, and multifamily housing projects. Expertise includes preconstruction, budgeting, establishment of GMP, GC procurement, scheduling, bid / award. Demonstrated ability to communicate effectively internally and with clients to promote services.'
   }
@@ -32,8 +30,6 @@ function AppTeams() {
                     <div className='overlay'>
                       <div className='socials'>
                         <ul>
-                          <li><a href={teams.fbLink}><i className="fab fa-facebook-f"></i></a></li>
-                          <li><a href={teams.twitterLink}><i className="fab fa-twitter"></i></a></li>
                           <li><a href={teams.linkedinLink}><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                       </div>

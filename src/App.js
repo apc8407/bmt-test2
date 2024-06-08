@@ -8,6 +8,7 @@ import AppServices from './components/services';
 import AppTeams from './components/teams';
 import AppContact from './components/contact';
 import AppFooter from './components/footer';
+import AppProjects from './components/projects';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <AppHero />
         <AppAbout />
         <AppServices />
+        <AppProjects />
         <AppTeams />
         <AppContact />
       </main>

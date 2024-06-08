@@ -23,7 +23,7 @@ function AppAbout() {
             <Image src={img1} />
           </Col>
           <Col sm={6}>
-            <p style={{ textAlign: 'justify' }}>At BMT Services Inc., we are dedicated to delivering precise and comprehensive cost estimating and value engineering solutions for construction projects. Our team of experienced professionals collaborates closely with clients, providing accurate cost assessments and risk evaluations from the conceptual phase through to project completion. We pride ourselves on our ability to adapt and refine cost plans as designs evolve, ensuring financial efficiency and project success.</p>
+            <p style={{ textAlign: 'justify' }}>At BMT Consulting Services LLC (a NYS and Port Authority Certified M/WBE), we are dedicated to delivering precise and comprehensive cost estimating and value engineering solutions for construction projects. Our team of experienced professionals collaborates closely with clients, providing accurate cost assessments and risk evaluations from the conceptual phase through to project completion. We pride ourselves on our ability to adapt and refine cost plans as designs evolve, ensuring financial efficiency and project success.</p>
             <p style={{ textAlign: 'justify' }}>With expertise spanning multiple market sectors—including commercial, aviation, education, government, infrastructure, transportation, hospitality, and industrial—we leverage advanced software tools and industry best practices to offer unparalleled project management and cost control services. Our commitment to excellence and client satisfaction drives us to continuously explore innovative value engineering options, ensuring optimal outcomes for every project.</p>
           </Col>
         </Row>

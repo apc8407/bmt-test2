@@ -91,6 +91,12 @@ ul,
   list-style: none;
 }
 
+.teams-block .team-image {
+  width: 100%; /* adjust as needed */
+  height: auto; /* maintain aspect ratio */
+  object-fit: cover;
+}
+
 .teams-block .content p {
   text-align: justify;
 }
@@ -238,7 +244,7 @@ textarea:focus {
 }
 
 textarea {
-  height: 150px !important;
+  height: 500px !important; /* Increase the height as per your requirement */
   min-height: 150px !important;
   resize: vertical;
   padding: 10px 15px !important;
@@ -578,6 +584,10 @@ textarea {
   /*font-size: 18px;*/
 }
 
+.services-block {
+  padding: 40px 0 0px; /* No space at the bottom */
+  margin-bottom: 0;
+}
 
 .works-block .portfoliolist>div {
   padding: 15px;
@@ -683,7 +693,7 @@ textarea {
   transition: all 0.3s linear;
   -webkit-transition: all 0.2s linear;
   vertical-align: middle;
-  background: rgba(246, 75, 75, 0.9);
+  background: rgba(125, 126, 219, 0.9);
   opacity: 0;
 }
 
@@ -817,7 +827,7 @@ textarea {
   position: absolute;
   top: 40px;
   left: 40px;
-  background: #f76363;
+  background: #7d9cdb;
   color: #fff;
   padding: 5px 10px;
   transform: translateX(-50%) translateY(-50%) rotate(-45deg);
@@ -903,7 +913,7 @@ textarea {
 }
 
 .blog-block .card-title a:hover {
-  color: #d10a0a;
+  color: #7d9cdb;
 }
 
 .blog-block .meta {
@@ -1007,7 +1017,7 @@ textarea {
   }
 
   .btn.btn-primary:hover {
-    background-color: #f41a1a;
+    background-color: #7d9cdb;
     transition: background-color 0.3s ease;
   }
 
@@ -1107,7 +1117,8 @@ textarea {
   }
 
   .services-block {
-    padding: 40px 0 25px;
+    padding: 40px 0 0px;
+    margin-bottom: 0;
   }
 
   .services-block .row {
@@ -1259,7 +1270,7 @@ textarea {
 }
 
 .flip-card .back {
-  background-color: #7d9cdb;;
+  background-color: #7d9cdb;
   color: white;
   transform: rotateY(180deg);
 }
@@ -1281,3 +1292,34 @@ textarea {
   height: 350px;
 }
 
+.Marquee {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
+}
+/*#footer .footer-image-container {
+  box-shadow: 0 0 15px 10px #cde4ff; //smudge effect 
+  background-color: #cde4ff;
+}*/
+
+#footer .footer-image-container {
+  box-shadow: 0 0 10px 5px rgba(219, 233, 250, 0.2); /* reduced smudge effect */
+  background-color: rgba(218, 231, 247, 0.232); /* more transparent */
+}
+.form-group-spacing {
+  margin-bottom: 20px;
+}
+
+.form.d-flex {
+  display: flex;
+  justify-content: center;
+}
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

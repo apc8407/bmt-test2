@@ -1,4 +1,5 @@
 {
+  "homepage": "https://apc8407.github.io/bmt-test2",
   "name": "bmt",
   "version": "0.1.0",
   "private": true,
@@ -10,12 +11,17 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+    "react-marquee-slider": "^1.1.5",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
+    "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1"
   }
 }
